@@ -1,4 +1,4 @@
-# 🌊 AquaSentinel  
+# AquaSentinel  
 ## CNN-Based Flood Detection & Rescue Guidance System  
 
 AquaSentinel is an AI-powered flood monitoring and rescue assistance system that leverages **Computer Vision, Deep Learning (U-Net), and GIS-based routing** to detect flooded regions and assist in disaster response.
@@ -7,7 +7,7 @@ Developed as part of **Applicative Project II – B.Tech CSE (AIML)**.
 
 ---
 
-## 🚨 Problem Statement
+## Problem Statement
 
 Floods cause severe damage to:
 
@@ -26,7 +26,7 @@ AquaSentinel aims to automate flood detection and improve response time using de
 
 ---
 
-## 🎯 Project Objectives
+##  Project Objectives
 
 - Detect flooded regions automatically from satellite/video imagery  
 - Segment flood boundaries using U-Net  
@@ -36,19 +36,19 @@ AquaSentinel aims to automate flood detection and improve response time using de
 
 ---
 
-## 🧠 System Overview
+## System Overview
 
 AquaSentinel integrates:
 
-- 📷 Image Processing  
-- 🧠 U-Net Deep Learning Segmentation  
-- 🚨 Alert Engine  
-- 🗺 GIS-Based Rescue Routing  
-- 📊 Dashboard Visualization  
+- Image Processing  
+- U-Net Deep Learning Segmentation  
+- Alert Engine  
+- GIS-Based Rescue Routing  
+- Dashboard Visualization  
 
 ---
 
-## 🏗 System Architecture
+##  System Architecture
 
 Input (Satellite Image / Video Frame)
 ↓
@@ -71,7 +71,7 @@ Dashboard Output
 
 ---
 
-## 🤖 Model Architecture
+##  Model Architecture
 
 We use **U-Net**, an encoder–decoder convolutional neural network designed for pixel-wise segmentation.
 
@@ -99,7 +99,7 @@ We use **U-Net**, an encoder–decoder convolutional neural network designed for
 
 ---
 
-## 🌊 Flood Detection Technique
+##  Flood Detection Technique
 
 1. Generate flood probability map  
 2. Apply threshold to create binary mask  
@@ -113,7 +113,7 @@ Probability > Threshold
 
 ---
 
-## 🗺 Rescue Route Mapping
+##  Rescue Route Mapping
 
 AquaSentinel integrates GIS-based routing logic:
 
@@ -124,9 +124,9 @@ AquaSentinel integrates GIS-based routing logic:
 
 Visual Indicators:
 
-- 🔴 Flood Zone  
-- 🟢 Rescue Team  
-- 🟡 Optimal Route  
+-  Flood Zone  
+-  Rescue Team  
+-  Optimal Route  
 
 ---
 
@@ -149,7 +149,7 @@ Visual Indicators:
 
 ---
 
-## 📊 Results
+##  Results
 
 - Flood probability heatmaps generated  
 - Binary flood segmentation masks produced  
@@ -168,7 +168,7 @@ Visual Indicators:
 
 ---
 
-## 🔮 Future Work
+##  Future Work
 
 ### Model Improvements
 - Use Sentinel-1 SAR data for cloud-robust detection  
@@ -183,13 +183,13 @@ Visual Indicators:
 
 ---
 
-## 🔥 Vision Statement
+##  Vision Statement
 
 **AquaSentinel functions as a digital sentinel, using CNN-based computer vision to monitor, detect, and assist in flood disaster response.**
 
 ---
 
-## 👨‍💻 Team Members
+##  Team Members
 
 - Deepak Kumar  
 - Dubba Aakash  
@@ -199,6 +199,6 @@ Visual Indicators:
 
 ---
 
-## 📌 License
+##  License
 
 For academic and research use.
